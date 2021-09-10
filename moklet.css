@@ -45,12 +45,17 @@ yang mempunyai class yg mengandung keyword "col-" */
 #informatic_school{
     background-color: rgb(233, 67, 67);
     border-radius: 80px;
-    height: 650px;
+    height: 700px;
     position: relative;
-    top: -60px;
-    left: -60px;
+    top: -130px;
+    left: -130px;
     padding-top: 15%;
-    padding-left: 15%;
+    padding-left: 20%;
+    transform: rotate(30deg);
+}
+
+#informatic_school .content{
+    transform: rotate(-30deg);
 }
 
 #informatic_school h3{
@@ -77,6 +82,7 @@ yang mempunyai class yg mengandung keyword "col-" */
     padding-top: 10px;
     padding-bottom: 10px;
     border:none;
+    
 }
 
 #informatic_school #join:hover {
@@ -89,6 +95,7 @@ yang mempunyai class yg mengandung keyword "col-" */
     padding-top: 10px;
     padding-bottom: 10px;
     border: 2px solid white;
+    transform: scale(1.3);
 }
 
 #why h1 {
@@ -151,6 +158,7 @@ yang mempunyai class yg mengandung keyword "col-" */
 }
 
 .belah-ketupat{
+    margin: auto;
     background-color: white;
     width: 100px;
     height: 100px;
